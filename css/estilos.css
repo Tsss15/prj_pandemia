@@ -1,0 +1,146 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color: #141414;
+	font-size: 1em;
+	font-family: Arial, sans-serif;
+}
+a{
+	text-decoration: none;
+	color:	White;
+}
+img{
+	max-width: 250px;
+	margin: 0px auto;
+	display: block;
+}
+img:hover{
+	opacity: 0.5;
+	border-radius: 1000px;
+}
+p{
+    text-align: justify;
+    color: White;
+}
+h1,h2,h3,h4,h5,h6{
+    color: white;
+    font-family: Alegrian,cursive;
+    text-decoration: underline;
+}
+#fundo_cabecalho{
+	background-color: #140F0B;
+	clear: both;
+	padding: 5px;
+	margin:5px ;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 15px;
+}
+#area_cabecalho{
+	background-position:center;
+	background-image: url(../imagens/covid.jpg);
+	border-radius: 15px;
+	background-repeat: no-repeat;
+	padding: 10px;
+	text-align: center;
+	height: 300px;
+	margin-top:10px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+#area_logo, #area_menu{
+	padding: 10px;
+}
+#cor_logo{
+	color: White	;
+	margin-top:  270px;
+	background-position: center;
+	background-color: #141414;
+	margin-right: 450px;
+	margin-left: 450px;
+}
+#area_cabecalho a:link,#area_cabecalho a:visited{
+	color: #140F0B;
+	padding: 8px 12px;
+}
+#area_menu a:hover{
+	text-decoration: underline;
+	color: White;
+	background-color: #141414;
+}
+#area_menu{
+	background-color: #000000;
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	margin-right: 15px;
+	margin-left: 15px;
+	border-radius: 15px;
+}
+#area_principal{
+	width: 97%;/*definindo a largura padrão*/
+	margin: 0px auto;
+	padding: 15px;
+}
+#area_postagens{
+	margin-top: 0px;
+}
+#area_postagens{
+	width: 50%;
+	float: right;
+	margin-right: -10px;
+	margin-left: 0px;
+}
+#area_rodape{
+	background-color: #000000;
+	clear: both;
+	padding: 25px;
+	margin: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-radius: 15px;
+}
+#area_postagens2{
+	margin-top: -30px;
+}
+#area_postagens2{
+	width: 50%;
+	float: left;
+	margin-left: -10px;
+	margin-right: 0px;
+}
+#texto_postagens2{
+	columns: 1;
+}
+.texto_rodape{
+	text-align: center;
+	color: white;
+}
+.postagem{
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: #140F0B;
+	border-radius: 15px;
+}
+.postagem2{
+	padding: 20px;
+	margin-bottom: 5px;
+	background-color: #140F0B;
+	border-radius: 15px;
+}
+.titulos{
+	text-align: center;
+	padding: 5px;
+}
+.imagens{
+	max-width: 60%;
+
+}
+.imagens2{
+	max-width: 90%;
+}
+.imagens3{
+	max-width: 60%;
+}
